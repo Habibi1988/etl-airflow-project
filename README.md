@@ -28,46 +28,66 @@ The DAG executes a multi-step ETL process on toll data using shell commands. Tas
 
 > Note: These screenshots were taken during development and submitted to Coursera for peer review.
 
-## Screenshots
+# ETL Airflow Project
 
-### DAG Arguments
-![DAG Arguments](./screenshots/dag_args.jpg)
+This project demonstrates building an ETL data pipeline using Apache Airflow with BashOperator. The pipeline extracts, transforms, and loads toll data from various file formats.
 
-### DAG Definition
-![DAG Definition](./screenshots/dag_definition.jpg)
+## Project Structure
 
-### Unzip Data Task
-![Unzip Data Task](./screenshots/unzip_data.jpg)
+![Project Structure](screenshots/project_structure.jpg)
 
-### Extract CSV Task
-![Extract CSV Task](./screenshots/extract_data_from_csv.jpg)
+## DAG Definition and Arguments
 
-### Extract TSV Task
-![Extract TSV Task](./screenshots/extract_data_from_tsv.jpg)
+- DAG arguments screenshot:  
+  ![DAG Arguments](screenshots/dag_args.jpg)  
 
-### Extract Fixed Width Task
-![Extract Fixed Width Task](./screenshots/extract_data_from_fixed_width.jpg)
+- DAG definition screenshot:  
+  ![DAG Definition](screenshots/dag_definition.jpg)
 
-### Consolidate Data Task
-![Consolidate Data Task](./screenshots/consolidate_data.jpg)
+## Tasks Overview
 
-### Transform Data Task
-![Transform Data Task](./screenshots/transform_data.jpg)
+1. Unzip Data  
+   ![Unzip Data](screenshots/unzip_data.jpg)
 
-### Task Pipeline
-![Task Pipeline](./screenshots/task_pipeline.jpg)
+2. Extract Data from CSV  
+   ![Extract CSV](screenshots/extract_data_from_csv.jpg)
 
-### DAG Submission
-![Submit DAG](./screenshots/submit_dag_2.jpg)
+3. Extract Data from TSV  
+   ![Extract TSV](screenshots/extract_data_from_tsv.jpg)
 
-### Unpause & Trigger DAG
-![Unpause Trigger DAG](./screenshots/unpause_trigger_dag.jpg)
+4. Extract Data from Fixed Width File  
+   ![Extract Fixed Width](screenshots/Extract%20data%20from%20fixed%20width%20file.jpg)
 
-### DAG Tasks List
-![DAG Tasks](./screenshots/dag_tasks_2.jpg)
+5. Consolidate Data  
+   ![Consolidate Data](screenshots/consolidate_data.jpg)
 
-### DAG Runs
-![DAG Runs](./screenshots/dag_runs.jpg)
+6. Transform Data  
+   ![Transform Data](screenshots/transform_data.jpg)
+
+7. Task Pipeline  
+   ![Task Pipeline](screenshots/task_pipeline.jpg)
+
+## DAG Submission and Execution
+
+- DAG submitted and listed:  
+  ![Submit DAG](screenshots/submit_dag.jpg)
+
+- DAG unpaused and triggered:  
+  ![Unpause and Trigger DAG](screenshots/unpause_trigger_dag.jpg)
+
+- List of DAG tasks:  
+  ![DAG Tasks](screenshots/dag_tasks.jpg)
+
+- Monitor DAG runs:  
+  ![DAG Runs](screenshots/dag_runs.jpg)
+
+## How to Run
+
+1. Clone the repo
+2. Install dependencies
+3. Initialize Airflow and place the DAG in the dags folder
+4. Unpause and trigger the DAG via CLI or Airflow Web UI
+5. Monitor task execution through the Airflow UI or CLI
 
 
 ## ▶️ How to Run Locally
