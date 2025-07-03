@@ -28,21 +28,47 @@ The DAG executes a multi-step ETL process on toll data using shell commands. Tas
 
 > Note: These screenshots were taken during development and submitted to Coursera for peer review.
 
-| Task | Screenshot |
-|------|------------|
-| DAG Arguments | ![dag_args](screenshots/dag_args.jpg) |
-| DAG Definition | ![dag_definition](screenshots/dag_definition.jpg) |
-| Unzip Task | ![unzip_data](screenshots/unzip_data.jpg) |
-| Extract CSV | ![extract_data_from_csv](screenshots/extract_data_from_csv.jpg) |
-| Extract TSV | ![extract_data_from_tsv](screenshots/extract_data_from_tsv.jpg) |
-| Extract Fixed Width | ![extract_data_from_fixed_width](screenshots/extract_data_from_fixed_width.jpg) |
-| Consolidate Data | ![consolidate_data](screenshots/consolidate_data.jpg) |
-| Transform Data | ![transform](screenshots/transform.jpg) |
-| Task Pipeline | ![task_pipeline](screenshots/task_pipeline.jpg) |
-| DAG Submission | ![submit_dag](screenshots/submit_dag.jpg) |
-| DAG Triggered | ![unpause_trigger_dag](screenshots/unpause_trigger_dag.jpg) |
-| DAG Tasks Listed | ![dag_tasks](screenshots/dag_tasks.jpg) |
-| DAG Runs | ![dag_runs](screenshots/dag_runs.jpg) |
+## Screenshots
+
+### DAG Arguments
+![DAG Arguments](./screenshots/dag_args.jpg)
+
+### DAG Definition
+![DAG Definition](./screenshots/dag_definition.jpg)
+
+### Unzip Data Task
+![Unzip Data Task](./screenshots/unzip_data.jpg)
+
+### Extract CSV Task
+![Extract CSV Task](./screenshots/extract_data_from_csv.jpg)
+
+### Extract TSV Task
+![Extract TSV Task](./screenshots/extract_data_from_tsv.jpg)
+
+### Extract Fixed Width Task
+![Extract Fixed Width Task](./screenshots/extract_data_from_fixed_width.jpg)
+
+### Consolidate Data Task
+![Consolidate Data Task](./screenshots/consolidate_data.jpg)
+
+### Transform Data Task
+![Transform Data Task](./screenshots/transform_data.jpg)
+
+### Task Pipeline
+![Task Pipeline](./screenshots/task_pipeline.jpg)
+
+### DAG Submission
+![Submit DAG](./screenshots/submit_dag_2.jpg)
+
+### Unpause & Trigger DAG
+![Unpause Trigger DAG](./screenshots/unpause_trigger_dag.jpg)
+
+### DAG Tasks List
+![DAG Tasks](./screenshots/dag_tasks_2.jpg)
+
+### DAG Runs
+![DAG Runs](./screenshots/dag_runs.jpg)
+
 
 ## ▶️ How to Run Locally
 
